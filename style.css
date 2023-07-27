@@ -96,3 +96,17 @@ text-decoration: underline rgb(54, 49, 68);
     text-align: justify;
     font-weight: 500;
 }
+footer{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+footer p{
+    text-align: end;
+    font-size: 18px;
+}
+footer p a{
+    text-decoration: none;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
