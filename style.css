@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 15px solid #1d1e4c;
+     
+}
+
+.main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.image{
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 8px 8px 8px rgb(87, 92, 87);
+}
+.image,img{
+    width: 300px;
+    height: 330px;
+    
+}
+.top-main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.top-main h1{
+    font-size: 62px;
+    font-weight: bold;
+    color:#1d1e4c ;
+    font-family: 'Belanosima', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+text-decoration: underline rgb(54, 49, 68);
+
+}
+.top-main h4{
+  text-align: end;
+  font-size: 30px;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+    
+}
+.about{
+    margin-top: 30px;
+   
+   
+}
+.about h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Belanosima', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.about p{
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    font-weight: 500;
+}
+.invention{
+    margin-top: 20px;
+}
+.invention h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Belanosima', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.invention p{
+  margin-top: 20px;
+  font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    font-weight: 500;
+}
